@@ -1,7 +1,7 @@
 // app/api/schedules/route.ts
 import { NextResponse } from 'next/server';
 
-const API_URL = 'http://schedemy-website-alb-1534266831.eu-north-1.elb.amazonaws.com/schedules';
+const API_URL = 'schedemy-website-alb-1811935318.eu-north-1.elb.amazonaws.com/schedules';
 
 export async function GET() {
   try {
