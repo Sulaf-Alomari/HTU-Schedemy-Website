@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const res = await fetch('http://13.60.250.221:8080/time', {
+    const res = await fetch('http://schedemy-website-alb-1534266831.eu-north-1.elb.amazonaws.com/time', {
       cache: 'no-store',
     });
 
