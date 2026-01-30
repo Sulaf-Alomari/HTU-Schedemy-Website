@@ -4,7 +4,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
 
-    const res = await fetch('schedemy-website-alb-1811935318.eu-north-1.elb.amazonaws.com/email', {
+    const res = await fetch('schedemy.htufolio.com/email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
